@@ -1,0 +1,6 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+download_model.py
+model/README.txt

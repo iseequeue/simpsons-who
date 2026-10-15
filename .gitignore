@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data and training outputs (big, and the images are copyrighted)
+data/
+runs_cls/
+.hf_cache/
+logs/*
+!logs/.keep
+*.pt
+torch-constraints.txt
+
+# the model goes to GitHub Releases (GitHub rejects files > 100 MB)
+app/model/*
+!app/model/README.txt
+
+*.tar.gz
+*.zip

@@ -1,0 +1,20 @@
+{
+  "n_val": 2095,
+  "errors": 13,
+  "accuracy": 0.9937947494033413,
+  "f1_micro": 0.9937947494033413,
+  "f1_macro": 0.9843110115942905,
+  "f1_weighted": 0.9937478806488935,
+  "balanced_accuracy": 0.981960981255311,
+  "top3_accuracy": 0.9976133651551312,
+  "log_loss": 0.1141037717461586,
+  "ece": 0.08498241796840633,
+  "model": "convnext_small.fb_in22k_ft_in1k_384",
+  "img": 320,
+  "tta": true,
+  "params_m": 49.5,
+  "checkpoint_mb": 198.0,
+  "throughput_img_s_bs64": 399.6,
+  "latency_ms_bs1": 9.36,
+  "gpu": "Tesla V100-SXM2-32GB"
+}
